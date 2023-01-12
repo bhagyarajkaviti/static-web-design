@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="coding-assignment-3.css">
+</head>
+
+<body>
+    <div id="sectionhomepag">
+        <div class="container-image d-flex  flex-column justify-content-end">
+            <div class="container2 ">
+                <h1 class="container-heading"> Sunrise Avenue</h1>
+                <p class="container-text"> Move to what you are</p>
+                <button onclick="display('sectionmenucontainer')" class="home-button">Book Flat</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionmenucontainer">
+        <div class="menu-container">
+            <h1 class="container-heading">Sunrise Avenue</h1>
+            <div onclick="display('sectiondetail3bhk')" class="sub-container d-flex flex-row ">
+                <img class="menu-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" />
+                <div class="menu-text-spacing">
+                    <h1 class="menu-side-heading"> 3BHK FLAT</h1>
+                    <p class="menu-text"> This is a fully furnished house with handmade furniture including a lixury en-suite facilites pack. It built up areais
+                        about 100sq.ft.A spacious home for hyo to live in.</p>
+                </div>
+            </div>
+            <div onclick="display('sectiondetail2bhk')" class="sub-container d-flex flex-row ">
+                <img class="menu-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" />
+                <div class="menu-text-spacing">
+                    <h1 class="menu-side-heading"> 2HK FLAT</h1>
+                    <p class="menu-text"> This is a fully furnished house with handmade furniture including a lixury en-suite facilites pack. It built up areais
+                        about 100sq.ft.A spacious home for hyo to live in.</p>
+                </div>
+            </div>
+            <div onclick="display('sectiondetail4bhk')" class="sub-container d-flex flex-row ">
+                <img class="menu-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" />
+                <div class="menu-text-spacing">
+                    <h1 class="menu-side-heading"> 4BHK FLAT</h1>
+                    <p class="menu-text"> This is a fully furnished house with handmade furniture including a lixury en-suite facilites pack. It built up areais
+                        about 100sq.ft.A spacious home for hyo to live in.</p>
+                </div>
+            </div>
+            <button onclick="display('sectionhomepag')" class="home-button">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiondetail4bhk">
+        <div>
+            <img class="detail-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" />
+            <div class="detail-menu-container">
+                <h1 class="deatil-view-heading"> Rs 14000/- </h1>
+                <div class="d-flex flex-row pt-4 ">
+                    <img class="icon-size" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png">
+                    <p class="container-text">D/N5-2,Food street,Indore</p>
+                </div>
+                <h1 class="deatil-view-heading">Descripition</h1>
+                <p class="container-text"> A contemparary home with more colours and vibrancy.It is fully furnture and elagent furniture.It is build up area about 3600sq.f</p>
+                <div class="d-flex justify-content-center">
+                    <button class="home-button">confirm</button>
+                    <button onclick="display('sectionmenucontainer')" class="home-button">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetail2bhk">
+        <div>
+            <img class="detail-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" />
+            <div class="detail-menu-container">
+                <h1 class="deatil-view-heading"> Rs 5000/- </h1>
+                <div class="d-flex flex-row pt-4 ">
+                    <img class="icon-size" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png">
+                    <p class="container-text">D/N5-2,Food street,Indore</p>
+                </div>
+                <h1 class="deatil-view-heading">Descripition</h1>
+                <p class="container-text"> A contemparary home with more colours and vibrancy.It is fully furnture and elagent furniture.It is build up area about 3600sq.f</p>
+                <div class="d-flex justify-content-center">
+                    <button class="home-button">confirm</button>
+                    <button onclick="display('sectionmenucontainer')" class="home-button">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetail3bhk">
+        <div>
+            <img class="detail-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" />
+            <div class="detail-menu-container">
+                <h1 class="deatil-view-heading"> Rs 8000/- </h1>
+                <div class="d-flex flex-row pt-4 ">
+                    <img class="icon-size" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png">
+                    <p class="container-text">D/N5-2,Food street,Indore</p>
+                </div>
+                <h1 class="deatil-view-heading">Descripition</h1>
+                <p class="container-text"> A contemparary home with more colours and vibrancy.It is fully furnture and elagent furniture.It is build up area about 3600sq.f</p>
+                <div class="d-flex justify-content-center">
+                    <button class="home-button">confirm</button>
+                    <button onclick="display('sectionmenucontainer')" class="home-button">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

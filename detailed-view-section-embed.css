@@ -1,0 +1,31 @@
+.main-bg{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    color: white;
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 24px;
+}
+.card-container{
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 17px;
+}
+.card-container-heading{
+   color: rgba(0, 0, 0, 0.849); 
+   font-family: "Roboto";
+   font-weight: bold;
+   font-size: 25px; 
+}
+.card-description{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.text-container{
+    padding: 12px;
+}

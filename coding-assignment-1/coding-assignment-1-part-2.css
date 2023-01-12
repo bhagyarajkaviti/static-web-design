@@ -1,0 +1,45 @@
+.container1 {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/foundations-bg.png');
+    background-size: cover;
+    height: 120vh;
+    padding-top: 43vh;
+}
+
+.container2-background {
+    background-color: #ffffff;
+    padding: 35px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.main-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-text {
+    font-size: 28px;
+    font-weight: 300;
+    color: #cbd2d9;
+}
+
+.background-image-color {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    border-color: #cbd2d9;
+    text-align: center;
+}
+
+.image-size {
+    height: 70px;
+    width: 70px;
+}
+
+.imaze-heading {
+    font-size: 28px;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+.main-bg{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    height: 100vh;
+    background-size: cover;
+    
+}
+.hotel{
+    color: #ffffff;
+    background-color: #000000e6;
+    border-radius: 18px;
+    padding: 20px;
+    
+}
+.heading{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Bree Serif";
+}
+.b1{
+    font-family: "Roboto";
+    background-color: #ffffff;
+    margin-top: 15px;
+    height: 41px;
+    font-size: 13px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: black;
+}
+.bottom-card{
+    margin: 25px;
+}

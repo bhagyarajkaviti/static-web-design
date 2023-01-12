@@ -1,0 +1,60 @@
+.container-home-page {
+    background-color: #225db0;
+    height: 195vh;
+    padding: 30px;
+}
+
+.home-heading {
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.home-text1 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 25px
+}
+
+.logo-background {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    height: 130px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.logo-size {
+    height: 40px;
+    width: 40px;
+}
+
+.home-text2 {
+    color: #1f2933;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.list-container {
+    margin: 20px;
+    color: #ffffff;
+}
+
+.list-heading-container {
+    margin-top: 20px;
+    color: #ffffff;
+
+}
+
+.button {
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: white;
+    width: 80px;
+}

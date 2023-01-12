@@ -1,0 +1,35 @@
+.image {
+    height: 50vh;
+}
+
+.home-page-gap {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.home-page-headind {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.home-page-text {
+    color: blue;
+    font-size: 16px;
+}
+
+.detail-page-headind {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detail-page-text {
+    color: blue;
+    font-size: 15px;
+}
+
+.home-page-gap2 {
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+}

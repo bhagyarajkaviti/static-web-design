@@ -1,0 +1,19 @@
+.backg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+    font-family: "Bree Serif";
+    background-size: cover;
+    height: 100vh;
+}
+
+.card2 {
+    color: white;
+    padding: 30px;
+}
+
+.card1 {
+    background-color: #00000080;
+    border-color: #48ee59;
+    border-width: 5px;
+    margin: 20px;
+    border-style: solid;
+}

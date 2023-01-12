@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="coding-practice-13.css">
+</head>
+
+<body>
+    <div id="sectionmenu">
+        <div class="background">
+            <img class="logo" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png">
+            <h1 class="heading">My projects</h1>
+            <p> these are a few of my staticts in this assinments lets build ay projects page by appilaction the concepts we learned till now. you can use </p>
+
+            <div class="d-flex flex-row justify-content-center">
+                <img class="logo2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" onclick="display('sectiontechno')" />
+                <img class="logo2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" onclick="display('sectiondiwali')" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img class="logo2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png">
+                <img class="logo2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" onclick="display('sectiontech')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectiontechno">
+        <div class="main-bg d-flex flex-column justify-content-end">
+            <div class="bottom-card">
+                <div>
+                    <h1 class="heading2">Advanced Technologies</h1>
+                    <p>Machinary and equipment devoloped from the application of scientific knowledge.</p>
+                </div>
+                <div class="button-container d-flex flex-row">
+                    <button type="submit" class="b1">Learn More</button>
+                    <button type="submit" class="b2">Save Draft</button>
+                </div>
+                <button class="btn btn-primary" type="submit" onclick="display('sectionmenu')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondiwali">
+        <div class="bg-top">
+            <h1 class="heading1">Celebrate diwali with Your friends</h1>
+        </div>
+        <div class="bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="item">
+                    <img src="https://www.seekpng.com/png/small/832-8322698_sky-lantern-color-hot-air-balloon.png" alt="diwali-balloon" class="imgs" />
+                    <h6 class="item-headings">diwali-balloon</h6>
+                    <p class="price">Rs.369</p>
+                </div>
+                <div class="item">
+                    <img src="https://www.seekpng.com/png/detail/30-309901_diwali-oil-lamp-diwali-lamp-diwali-deepavali-lamp.png" alt="diwali-lamp" class="imgs" />
+                    <h6 class="item-headings">Diwali-lamp</h6>
+                    <p class="price">Rs.19</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSXvKOxzXTagObvV-B3hJ_N0I9wY_xzXYCcaL6ZbnfHIHamE75dCTYfpqz90hisH6RJhM&usqp=CAU" alt="diwali-Atom bomb" class="imgs" />
+                    <h6 class="item-headings">Atom Bomb</h6>
+                    <p class="price">Rs.49</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt4xz0JqFn0hT5UMe-EbCE4b0-kw4r9qDUBRYjuXOgOBoBjugDrW-aw_oLkBzoOWQJT-A&usqp=CAU" alt="diwali-rocket" class="imgs" />
+                    <h6 class="item-headings">Diwali-rocket</h6>
+                    <p class="price">Rs.49</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionmenu')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

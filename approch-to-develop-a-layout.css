@@ -1,0 +1,43 @@
+.bg-top{
+    background-image: url("https://www.nobrokerhood.com/blog/wp-content/uploads/2020/09/cover.png");
+    background-size:cover;
+    height: 30vh;    
+}
+.heading1{
+    color: rgb(191, 232, 11);
+    font-family:"caveat";
+    font-style: italic;
+    font-size: 32px;
+    width: 300px;
+    margin-left: 170px;
+    text-align: center;
+}
+.bottom-section{
+    background-color: #e6f6ff;
+    padding: 20px;
+    text-align: center;
+}
+.item{
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.imgs{
+    height: 74px;
+    width: 64px;
+}
+.item-headings{
+    padding: 12px;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.price{
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 19px;
+}

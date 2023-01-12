@@ -1,0 +1,123 @@
+.background {
+    text-align: center;
+}
+
+.logo {
+    height: 50vh;
+    width: 80vh;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.text {
+    font-size: 2px;
+    font-family: "Roboto";
+    color: skyblue;
+}
+
+.logo2 {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.bg-top {
+    background-image: url("https://www.nobrokerhood.com/blog/wp-content/uploads/2020/09/cover.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.heading1 {
+    color: rgb(191, 232, 11);
+    font-family: "caveat";
+    font-style: italic;
+    font-size: 32px;
+    width: 300px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.bottom-section {
+    background-color: #e6f6ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.item {
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.imgs {
+    height: 74px;
+    width: 64px;
+}
+
+.item-headings {
+    padding: 12px;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.price {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.main-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.bottom-card {
+    background-color: #ffffff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 28px;
+}
+
+.heading2 {
+    color: #5752ab;
+    font-size: 27px;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.b1 {
+    border-radius: 6px;
+    border-color: #d7dfe9;
+    background-color: #ffffff;
+    color: #171f46;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.b2 {
+    border-radius: 6px;
+    border-color: #d7dfe9;
+    background-color: #5752ab;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    margin-left: 7px;
+}

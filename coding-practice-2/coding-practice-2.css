@@ -1,0 +1,34 @@
+.bg {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.heading {
+    color: #ffffff;
+    text-align: center;
+    background-color: #323f4b;
+    padding: 13px;
+    margin-bottom: 55px;
+
+}
+
+.right {
+    color: #ffffff;
+    background-color: #47a3f3;
+    text-align: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+}
+
+.left {
+    color: #ffffff;
+    background-color: #52606d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}

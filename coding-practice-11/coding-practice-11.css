@@ -1,0 +1,94 @@
+.background-color {
+    background-color: #03174c;
+    height: 120vh;
+}
+
+.background-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.image1-heading {
+    text-align: center;
+    color: white;
+    font-family: "bree Serif";
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.image1-text {
+    text-align: center;
+    color: white;
+    font-family: "bree Serif";
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image2-gap {
+    margin: 35px;
+    text-align: center;
+}
+
+.background-image2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    background-size: cover;
+    height: 30vh;
+}
+
+.image2-heading {
+    text-align: center;
+}
+
+.button {
+    background-color: #8e97fd;
+    border-radius: 40px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-family: "bree Serif";
+    font-size: 20px;
+}
+
+.background-detail {
+    background-color: #03174c;
+}
+
+.detail-imaze-size {
+    height: 50vh;
+    width: 100vw;
+}
+
+.detail-heading1 {
+    font-size: 40px;
+    font-family: "bree serif";
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.detail-text {
+    font-size: 20px;
+    font-family: "bree serif";
+    color: #98a1bd;
+}
+
+.detail-heading2 {
+    font-size: 30px;
+    font-family: "bree serif";
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.bottom-card {
+    padding: 20px;
+}
+
+.detail-image {
+    height: 25vh;
+    width: 40vw;
+    margin-right: 20px;
+}

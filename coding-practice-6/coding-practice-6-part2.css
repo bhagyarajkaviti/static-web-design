@@ -1,0 +1,51 @@
+.main-bg {
+    background-color: #cbe2f5;
+    font-family: "Roboto";
+}
+
+.c1 {
+    background-color: #fb4e71;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.c2 {
+    background-color: #ffffff;
+    margin: 13px;
+    border-radius: 10px;
+}
+
+.ipl-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.ipl-para {
+    font-size: 15px;
+    color: #888888;
+}
+
+.p1 {
+    margin: 4px;
+}
+
+.bottom-card {
+    margin: 10px;
+}
+
+.para {
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.video {
+    margin: 8px;
+}
+
+.side-headings {
+    margin: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #323f4b;
+}

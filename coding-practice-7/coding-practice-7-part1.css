@@ -1,0 +1,63 @@
+.main-bg {
+    padding: 10px;
+    border-color: #0967d219;
+    border-width: 120px;
+    font-family: "Roboto";
+}
+
+.virus {
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.content1 {
+    padding: 18px;
+}
+
+.symptom {
+    border-radius: 8px;
+    margin: 13px;
+    padding: 10px;
+    color: white;
+}
+
+.s1 {
+    background-color: #3ebd93;
+}
+
+.s2 {
+    background-color: #e668a7;
+}
+
+.s3 {
+    background-color: #a368fc;
+}
+
+.side-heading {
+    color: #323f4b;
+    margin-top: 8px;
+}
+
+.v1 {
+    background-color: #0967d219;
+}
+
+.v2 {
+    background-color: #e12d3919;
+}
+
+.heading {
+    font-weight: bold;
+    color: #707070;
+    font-size: 18px;
+}
+
+.para {
+    color: #707070;
+    font-size: 13px;
+    font-weight: 500;
+}
+.p1{
+    padding-top: 10px;
+}
